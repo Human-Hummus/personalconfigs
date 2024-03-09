@@ -1,0 +1,87 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 20,
+    "spacing": 3, // Gaps between modules (4px)
+    "modules-left": ["wlr/workspaces", "custom/music"],
+    "modules-center": ["custom/myclock"],
+    "modules-right": [ "pulseaudio", "network", "disk", "custom/brightness", "cpu", "memory", "temperature", "battery"],
+    "wlr/workspaces": {
+         "disable-scroll": true,
+         "on-click": "activate",
+         "format": "{name}",
+         "on-scroll-up": "hyprctl dispatch workspace m-1 > /dev/null",
+         "on-scroll-down": "hyprctl dispatch workspace m+1 > /dev/null",
+         "format-icons": {
+             "urgent": "",
+             "focused": "",
+             "default": ""
+         }
+     },
+     "custom/brightness": {
+	"on-scroll-up": "",
+	"on-scroll-down": "",
+	"exec": "printf '%s 🖵' `brightnessctl i | grep 'Current' | sed -n -e 's/^.*(//p' | sed 's/)//'`",
+     },
+    "custom/myclock": {
+    	"exec": "dash ~/.config/waybar/myclock.sh",
+	"on-click": "foot calcurse"
+    },
+    "cpu": {
+    	"interval": 2,
+        "format": "{usage}% <small>CPU</small>",
+        "tooltip": false,
+	"on-click": "foot btop"
+    },
+    "memory": {
+    	"interval": 3,
+        "format": "{}% <small>RAM</small>",
+	"on-click": "foot btop"
+    },
+    "temperature": {
+    	"interval": 2,
+        "critical-threshold": 85,
+        "format-critical": "!!{temperatureC}°C !!",
+        "format": "{temperatureC}°C ",
+    },
+    "battery": {
+    	"interval":10,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+	"format": "{capacity}% {icon}  ",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "network": {
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+    "pulseaudio": {
+        "scroll-step": 1, // %, can be a float
+        "format": "{volume}%     {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "on-click": "pavucontrol"
+    },
+    "disk": {
+	"interval":120,
+	"format": "{percentage_used:2}% 🖬",
+	"path": "/"
+    },
+    "custom/music": {
+	"exec": "dash ~/.config/waybar/musicthing.sh",
+	"on-click": "foot mocp"
+    }
+}
+
