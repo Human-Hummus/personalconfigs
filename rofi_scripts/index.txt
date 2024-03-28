@@ -1,0 +1,55 @@
+Euro | €
+Cent | ¢
+Accent a | á
+Accent e | é
+Accent i | í
+Accent o | ó
+Accent u | ú
+Accent u 2| ü
+Accent n | ñ
+Upside Down Question Mark | ¿
+Infility | ∞
+Approximately Equal | ≈
+Not Equal | ≠
+Less Than or Equal to | ≤
+Greater Than or Equal to | ≥
+Plus or Minus | ±
+Multiply | ×
+Divide | ÷
+Pi | π
+Alpha | α
+Beta | β
+Gamma | γ
+Delta | Δ
+Theta | θ
+Kappa | κ
+Lamda | λ
+Mu | μ
+Keyboard | ⌨
+Benzene | ⌬
+Square | ⯀
+Check | ✓
+x | ✗
+Cross | ✗
+Left | ←
+Up | ↑
+Down | ↓
+Right | →
+sqrt | √
+Half | ½
+Third | ⅓
+Two Thirds | ⅔
+Angle | ∠
+Degree | °
+Bitcoin | ₿
+Note | ♪
+
+Tears of Joy | 😂
+Heart | ❤️
+ROFL | 🤣
+Nervous | 😅
+Cool | 😎
+Sparkles | ✨
+Skull | 💀
+Poop | 💩
+o | x
