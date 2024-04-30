@@ -21,7 +21,7 @@
      "custom/brightness": {
 	"on-scroll-up": "",
 	"on-scroll-down": "",
-	"exec": "printf '%s 🖵' `brightnessctl i | grep 'Current' | sed -n -e 's/^.*(//p' | sed 's/)//'`",
+	"exec": "sh /etc/nixos/configs/waybar/brt.sh"
      },
     "custom/myclock": {
     	"exec": "dash ~/.config/waybar/myclock.sh",
