@@ -52,8 +52,12 @@
 		git.enable = true;
 		neovim = {
 			configure = {
+			    packages.myVimPackage = with pkgs.vimPlugins; {
+      			    start = [ vim-prettier vim-airline];
+    			};
 			customRC = (builtins.readFile ./nvim.vim);};
 			enable = true;
+
 		};
 		hyprland = {
 			enable = true;
@@ -163,6 +167,7 @@
 		dunst
 		espeak-ng
 		zoxide
+html-tidy
 		flameshot
 		eza
 		feh
@@ -170,9 +175,10 @@
 		firefox
 		fontforge
 		foot
+		vimPlugins.vim-prettier
+		nodePackages.prettier
 		freecad
 		gcc
-		tlpui
 		tlp
 		ghc
 		gimp
