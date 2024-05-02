@@ -5,7 +5,7 @@
     "spacing": 3, // Gaps between modules (4px)
     "modules-left": ["wlr/workspaces", "custom/music"],
     "modules-center": ["custom/myclock"],
-    "modules-right": [ "pulseaudio", "network", "disk", "custom/brightness", "cpu", "memory", "temperature", "battery"],
+    "modules-right": [ "pulseaudio", "network", "disk", "custom/brightness", "cpu", "custom/clockspeed", "memory", "temperature", "battery"],
     "wlr/workspaces": {
          "disable-scroll": true,
          "on-click": "activate",
@@ -25,6 +25,11 @@
      },
     "custom/myclock": {
     	"exec": "dash ~/.config/waybar/myclock.sh",
+	"on-click": "foot calcurse"
+    },
+    "custom/clockspeed": {
+	"exec": "python3 /etc/nixos/configs/waybar/cpu_clock.py",
+
 	"on-click": "foot calcurse"
     },
     "cpu": {

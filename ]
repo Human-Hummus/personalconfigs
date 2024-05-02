@@ -1,0 +1,16 @@
+import os, sys, time
+print("\n")
+
+while True:
+    cpu_cores = 0
+    total_clock = 0
+    avg_clock = 0
+    for i in os.popen("cat /proc/cpuinfo | grep 'cpu MHz'").read().split("\n"):
+        if i == "":
+            continue
+        cpu_cores+=1
+        total_clock+=float(i.split(":")[1].strip())
+
+    avg_clock=total_clock/cpu_cores
+    print("\n⏲ " + str(round(avg_clock)) + "")
+    time.sleep(3)
