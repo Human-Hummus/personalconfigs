@@ -13,5 +13,5 @@ while True:
 		total_clock+=float(i.split(":")[1].strip())
 
 	avg_clock=total_clock/cpu_cores
-	print("<small>⏲ " + str(round(avg_clock))+"</small>")
+	print("<small>⏲ " + str(round(avg_clock))+"</small>", flush=True)
 	time.sleep(3)

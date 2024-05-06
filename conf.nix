@@ -166,6 +166,7 @@
 		yambar
 		dunst
 		espeak-ng
+		f3
 		zoxide
 html-tidy
 		flameshot

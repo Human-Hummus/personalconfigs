@@ -1,8 +1,8 @@
 {
-    "layer": "top", // Waybar at top layer
-    "position": "top", // Waybar position (top|bottom|left|right)
+    "layer": "top", 
+    "position": "top",
     "height": 20,
-    "spacing": 3, // Gaps between modules (4px)
+    "spacing": 3,
     "modules-left": ["wlr/workspaces", "custom/music"],
     "modules-center": ["custom/myclock"],
     "modules-right": [ "pulseaudio", "network", "disk", "custom/brightness", "cpu", "custom/clockspeed", "memory", "temperature", "battery"],
@@ -21,16 +21,14 @@
      "custom/brightness": {
 	"on-scroll-up": "",
 	"on-scroll-down": "",
-	"exec": "sh /etc/nixos/configs/waybar/brt.sh"
+	"exec": "dash /configs/waybar/brt.sh"
      },
     "custom/myclock": {
     	"exec": "dash ~/.config/waybar/myclock.sh",
 	"on-click": "foot calcurse"
     },
     "custom/clockspeed": {
-	"exec": "python3 /etc/nixos/configs/waybar/cpu_clock.py",
-
-	"on-click": "foot calcurse"
+	"exec": "python3 /configs/waybar/cpu_clock.py",
     },
     "cpu": {
     	"interval": 2,
