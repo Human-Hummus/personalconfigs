@@ -1,4 +1,5 @@
 app-accessibility/espeak-ng
+app-portage/eix
 app-admin/doas
 app-admin/keepassxc
 app-admin/sysklogd
@@ -7,7 +8,6 @@ app-editors/neovim
 app-eselect/eselect-repository
 app-misc/cmatrix
 app-misc/fastfetch
-app-misc/neofetch
 app-misc/ranger
 app-misc/trash-cli
 app-office/calcurse
@@ -19,10 +19,8 @@ app-shells/starship
 app-text/pandoc
 dev-games/godot
 dev-java/openjdk
-dev-lang/ghc
 dev-lang/go
 dev-lang/python
-dev-lang/tcc
 dev-libs/glib
 dev-util/rustup
 dev-vcs/git
@@ -37,19 +35,11 @@ gui-apps/wl-clipboard
 gui-apps/wofi
 gui-wm/hyprland
 kde-apps/kdenlive
-media-fonts/fira-code
 media-fonts/fontawesome
-media-fonts/freefont
 media-fonts/freefonts
-media-fonts/joypixels
-media-fonts/liberation-fonts
-media-fonts/noto
-media-fonts/noto-emoji
+media-fonts/fonts-meta
 media-gfx/feh
-media-gfx/flameshot
-media-gfx/fontforge
 media-gfx/gimp
-media-gfx/graphite2
 media-gfx/imagemagick
 media-gfx/jpegoptim
 media-gfx/krita
@@ -59,7 +49,6 @@ media-gfx/simple-scan
 media-sound/audacity
 media-sound/lmms
 media-sound/moc
-media-sound/mpg123
 media-sound/pavucontrol
 media-sound/pulseaudio
 media-video/ffmpeg
@@ -89,7 +78,6 @@ sys-boot/grub
 sys-devel/clang
 sys-fs/btrfs-progs
 sys-fs/dosfstools
-sys-fs/jfsutils
 sys-fs/xfsprogs
 sys-fs/zfs
 sys-kernel/gentoo-kernel
@@ -101,8 +89,4 @@ sys-power/upower
 sys-process/btop
 www-client/brave-bin::brave-overlay
 www-client/firefox
-www-client/lynx
-x11-libs/pango
 x11-misc/dunst
-x11-misc/lightdm
-x11-terms/kitty

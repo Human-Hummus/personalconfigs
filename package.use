@@ -1,0 +1,9 @@
+sys-kernel/installkernel dracut
+media-libs/freetype harfbuzz brotli
+media-libs/libvpx postproc
+media-libs/opencv contribdnn
+dev-qt/qtgui eglfs
+dev-python/PyQt5 declarative
+dev-python/pyside2 webengine webchannel
+media-libs/qhull static-libs
+sci-libs/cgnslib hdf5

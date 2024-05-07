@@ -1,0 +1,10 @@
+dev-util/rustup	~amd64
+dev-games/godot ~amd64
+dev-games/recastnavigation ~amd64
+net-libs/wslay ~amd64
+sys-power/tlp ~amd64
+app-office/onlyoffice-bin ~amd64
+dev-libs/libpthread-stubs **
+games-util/steam-launcher ~amd64
+sys-libs/libudev-compat ~amd64
+media-video/obs-studio ~amd64

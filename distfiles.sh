@@ -39,3 +39,13 @@ doas cp make.conf /etc/portage
 echo "distributing world file"
 doas mkdir -p /var/lib/portage/
 doas cp portage_world_file /var/lib/portage/world
+
+echo "removing files that might be directories"
+doas rm -rf /etc/portage/package.accept_keywords
+doas rm -rf /etc/portage/package.use
+
+echo "distributing package.use"
+doas cp package.use /etc/portage
+
+echo "distributing package.accept_keywords"
+doas cp package.accept_keywords /etc/portage
