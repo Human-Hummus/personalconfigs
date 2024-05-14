@@ -30,6 +30,10 @@ echo "distributing fish config"
 mkdir -p /home/user/.config/fish
 cp config.fish /home/user/.config/fish/
 
+echo "distributing nvim config"
+rm -rf /home/user/.config/nvim
+mkdir -p /home/user/.config/nvim
+cp nvim.vim /home/user/.config/nvim/init.vim
 
 echo "distributing portage files"
 echo "distributing make.conf"

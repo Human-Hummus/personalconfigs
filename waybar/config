@@ -5,7 +5,10 @@
     "spacing": 3,
     "modules-left": ["wlr/workspaces", "custom/music"],
     "modules-center": ["custom/myclock"],
-    "modules-right": [ "pulseaudio", "network", "disk", "custom/brightness", "cpu", "custom/clockspeed", "memory", "temperature", "battery"],
+    "modules-right": [ "pulseaudio", "network", "disk", "custom/brightness", "cpu", "custom/clockspeed","custom/cputemp", "memory", "battery"],
+    "custom/cputemp":{
+	"exec":"python3 /configs/waybar/cpu_temp.py"
+    },
     "wlr/workspaces": {
          "disable-scroll": true,
          "on-click": "activate",

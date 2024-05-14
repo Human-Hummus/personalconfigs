@@ -1,6 +1,6 @@
 * {
 	/* `otf-font-awesome` is required to be installed for icons */
-	font-family: noto-sans; /*fira-code;*Roboto, Helvetica, Arial, sans-serif;*/
+	font-family:  "Fira Code", "Font Awesome 6 Free"; /*fira-code;*Roboto, Helvetica, Arial, sans-serif;*/
 	font-size: 13px;
 	border: grey;
 	border-radius: 1px;
@@ -92,7 +92,7 @@ button:hover {
 #brightness,
 #custom-myclock,
 #custom-music,
-#custom-clockspeed, #custom-brightness {
+#custom-clockspeed, #custom-brightness,#custom-cputemp {
 	padding: 0 2px;
 	margin: 3px;
 	color: white;
