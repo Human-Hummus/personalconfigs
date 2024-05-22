@@ -1,4 +1,12 @@
+timezone="US/Mountain"
+
+
 doas echo "has permissions"
+echo "Timezone set: " $timezone
+timezone=`printf "/usr/share/zoneinfo/%s" $timezone`
+echo "Real timezone file: " $timezone
+
+
 
 if [ $# -eq 1 ]; then
 	echo "doing non-routine tasks"
@@ -8,6 +16,12 @@ if [ $# -eq 1 ]; then
 	doas chown -R user /configs
 	echo "making user's default shell bash"
 	doas usermod --shell /bin/bash user
+	echo "NPM install prettier"
+	doas npm install prettier
+	echo "Copying timezone"
+	doas cp $timezone /etc/localtime
+	echo "Configuring timezone with portage"
+	doas emerge --config sys-libs/timezone-datadoa
 fi
 
 echo "distributing routine files"
