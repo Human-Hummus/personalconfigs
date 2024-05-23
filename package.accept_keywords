@@ -12,3 +12,4 @@ dev-lang/zig ~amd64
 dev-lang/zig-bin ~amd64
 app-eselect/eselect-zig ~amd64
 games-util/game-device-udev-rules ~amd64
+gui-apps/wbg ~amd64
