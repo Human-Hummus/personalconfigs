@@ -18,18 +18,17 @@ if [ $# -eq 1 ]; then
 	doas usermod --shell /bin/bash user
 	echo "NPM install prettier"
 	doas npm install prettier
-	echo "Copying timezone"
-	doas cp $timezone /etc/localtime
 	echo "Configuring timezone with portage"
 	doas emerge --config sys-libs/timezone-datadoa
 fi
 
 echo "distributing routine files"
 
-
 echo "distributing doas config file"
 doas cp doas.conf /etc/doas.conf
 
+echo "Copying timezone"
+doas cp $timezone /etc/localtime
 
 echo "distributing hyprland config file"
 rm /home/user/.config/hypr/hyprland.conf
