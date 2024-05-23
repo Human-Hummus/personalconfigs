@@ -71,14 +71,12 @@ app-emulation/virtualbox
 media-gfx/inkscape
 www-client/qutebrowser
 sci-mathematics/calc
-app-editors/nano
 dev-python/pypy3
 net-im/discord
 sys-apps/baobab
 sys-apps/bat
 sys-apps/bleachbit
 sys-apps/eza
-sys-apps/gnome-disk-utility
 sys-apps/preload
 sys-block/f3
 sys-block/gparted

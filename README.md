@@ -12,73 +12,72 @@ These files are meant, as many file names would imply, to be run on [Gentoo Linu
 
 Software I use:
 
--   [Waybar](https://github.com/Alexays/Waybar)
--   [Hyprland](https://hyprland.org/)
--   [Foot](https://codeberg.org/dnkl/foot)
--   [swaybg](https://github.com/swaywm/swaybg)
--   [OpenDoas](https://github.com/Duncaen/OpenDoas)
--   trash-cli
--   dash
--   pandoc
--   openjdk
--   go
--   python
--   keepassxc
--   ghex
--   neovim
--   cmatrix
--   fastfetch
--   calcurse
--   libreoffice
--   onlyoffice
--   fish
--   starship
--   rust
--   godot
--   git
--   prismlauncher
--   steam
--   nautilus
--   wl-clipboard
--   wofi
--   kdenlive
--   feh
--   gimp
--   imagemagick
--   jpegoptim
--   krita
--   pngquant
--   prusaslicer
--   simple-scan
--   audacity
--   lmms
--   moc
--   ffmpeg
--   mpv
--   obs
--   vlc
--   nodejs
--   yt-dlp
--   qbittorrent
--   crystal
--   zig
--   blender
--   virtualbox
--   inkscape
--   qutebrowser
--   calc
--   pypy
--   discord
--   baobab
--   bat
--   eza
--   gparted
--   clang
--   cpupower
--   powertop
--   tlp
--   upower
--   btop
--   brave-browser
--   firefox
--   dunst
+-   [Waybar - A status bar for wayland](https://github.com/Alexays/Waybar)
+-   [Hyprland - A wayland compositor](https://hyprland.org/)
+-   [Foot - An st-esque terminal for wayland](https://codeberg.org/dnkl/foot)
+-   [swaybg - A utility for setting the wallpaper in wayland](https://github.com/swaywm/swaybg)
+-   [OpenDoas - A sudo alternative](https://github.com/Duncaen/OpenDoas)
+-   [trash-cli - A replacement for rm that puts files in the trash can](https://github.com/andreafrancia/trash-cli)
+-   [dash - A ligher alternative to bash](http://gondor.apana.org.au/~herbert/dash/)
+-   [pandoc - A document converter](https://pandoc.org/)
+-   [openjdk - An open implemmentation of the Java platform](https://openjdk.org/)
+-   [go - A programming language](https://go.dev/)
+-   [python - A programming language](https://www.python.org/)
+-   [KeePassXC - A password manager](https://keepassxc.org/)
+-   [Ghex - Gnome's hex editor](https://wiki.gnome.org/Apps/Ghex)
+-   [Neovim - A replacement for the VIM text editor](https://neovim.io/)
+-   [cmatrix - A goofy CLI screensaver thing](https://github.com/abishekvashok/cmatrix)
+-   [Fastfetch - A faster alternative to Neofetch, written in c](https://github.com/fastfetch-cli/fastfetch)
+-   [calcurse - A CLI calendar tool](https://www.calcurse.org/)
+-   [LibreOffice - A free office suite](https://www.libreoffice.org/)
+-   [OnlyOffice - A free office suite](https://www.onlyoffice.com/)
+-   [fish - A more user-friendly alternative to bash](https://fishshell.com/)
+-   [Starship - A fast shell prompt, written in Rust](https://starship.rs/)
+-   [Rust - A programming language](https://www.rust-lang.org/)
+-   [Godot - A free, open source game engine](https://godotengine.org/)
+-   [Git - A free distrubuted version control system](https://git-scm.com/)
+-   [Prism Launcher - A free and open source Minecraft launcher](https://prismlauncher.org/)
+-   [Steam - A popular online games distributor](https://store.steampowered.com/)
+-   [Nautilus - Gnome's file manager](https://apps.gnome.org/Nautilus/)
+-   [wl-clipboard - A clipboard for wayland](https://github.com/bugaevc/wl-clipboard)
+-   [Wofi - Wayland alternative for Rofi](https://sr.ht/~scoopta/wofi/)
+-   [Kdenlive - KDE's video editor](https://kdenlive.org/)
+-   [feh - A lightweight image viewer](https://feh.finalrewind.org/)
+-   [GIMP - The GNU Image Manipulation Program](https://www.gimp.org/)
+-   [ImageMagick - Free CLI image manipulation suite](https://imagemagick.org/)
+-   [jpegoptim - A CLI utility to optimize JPEG files](https://github.com/tjko/jpegoptim)
+-   [Krita - KDE's free paint program](https://krita.org/en/)
+-   [pngquant - A lossy PNG compressor](https://pngquant.org/)
+-   [PrusaSlicer - Free slicer program](https://www.prusa3d.com/en/page/prusaslicer_424/)
+-   [simple-scan - Gnome's scanner program](https://apps.gnome.org/SimpleScan/)
+-   [Audacity - A free audio editor](https://www.audacityteam.org/)
+-   [LMMS - FOSS DAW](https://lmms.io/)
+-   [MOC - CLI music player](https://github.com/jonsafari/mocp)
+-   [FFmpeg - A media converter/streamer](https://ffmpeg.org/)
+-   [mpv - A simple media player](https://mpv.io/)
+-   [OBS - Video recorder](https://obsproject.com/)
+-   [VLC media player - Famous media player](https://www.videolan.org/)
+-   [NodeJS - Infamous Javascript runtime](https://nodejs.org/en)
+-   [yt-dlp - Program to download media from content distributors](https://github.com/yt-dlp/yt-dlp)
+-   [qBittorrent - Torrent software](https://www.qbittorrent.org/)
+-   [Crystal - A neat programming language](https://crystal-lang.org/)
+-   [Zig - A programming language](https://ziglang.org/)
+-   [Blender - A _very_ diverse 3d-renderer/modeler/video editor](https://www.blender.org/)
+-   [VirtualBox - Free virtualization software](https://www.virtualbox.org/)
+-   [Inkscape - FOSS vector image creator](https://inkscape.org/)
+-   [qutebrowser - A lightweight keyboard-driven web browser](https://qutebrowser.org/)
+-   [PyPy - A JIT python interpreter/compiler](https://www.pypy.org/)
+-   [Discord - Communication software](https://discord.com/)
+-   [baobab - Gnome's disk usage analizer](https://apps.gnome.org/Baobab/)
+-   [bat - A cat replacement](https://github.com/sharkdp/bat)
+-   [eza - An ls replacement](https://github.com/eza-community/eza)
+-   [GParted - Gnome partition editor](https://gparted.org/)
+-   [clang - C language compiler for LLVM](https://clang.llvm.org/)
+-   [cpupower - Power management utility](https://packages.gentoo.org/packages/sys-power/cpupower)
+-   [PowerTOP - Linux power diagnostic tool](https://github.com/fenrus75/powertop)
+-   [TLP - Battery life optimization daemon](https://linrunner.de/tlp/index.html)
+-   [UPower - Abstraction for enumerating power devices](https://upower.freedesktop.org/)
+-   [Btop - htop alternative](https://github.com/aristocratos/btop)
+-   [brave-browser - The brave web browser](https://brave.com/)
+-   [Firefox - Mozilla's web browser](https://www.mozilla.org/en-US/firefox/new/)
+-   [Dunst - A lightweight notification daemon](https://dunst-project.org/)

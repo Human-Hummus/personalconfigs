@@ -1,4 +1,4 @@
-timezone="US/Mountain"
+timezone="US/Central"
 
 
 doas echo "has permissions"
