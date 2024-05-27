@@ -8,3 +8,4 @@ media-libs/qhull static-libs
 sci-libs/cgnslib hdf5
 media-libs/openpgl cpu_flags_x86_avx2
 x11-base/xwayland libei
+app-misc/mime-types nginx
