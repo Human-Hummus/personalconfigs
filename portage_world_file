@@ -99,6 +99,8 @@ net-misc/whois
 www-servers/nginx
 dev-util/cloc
 x11-terms/kitty
+app-misc/afetch
+x11-terms/alacritty
 www-client/brave-bin::brave-overlay
 www-client/firefox
 x11-misc/dunst

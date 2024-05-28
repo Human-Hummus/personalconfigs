@@ -1,0 +1,14 @@
+live_config_reload = true
+shell = "fish"
+
+[scrolling]
+history=5000
+multiplier=3
+
+[font]
+normal = {family = "Fira Code", style = "Regular"}
+
+[window]
+opacity = 0.9
+blur = false
+title = "Terminal"

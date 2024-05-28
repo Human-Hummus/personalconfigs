@@ -13,3 +13,5 @@ dev-lang/zig-bin ~amd64
 app-eselect/eselect-zig ~amd64
 games-util/game-device-udev-rules ~amd64
 gui-apps/wbg ~amd64
+app-misc/afetch ~amd64
+x11-terms/alacritty ~amd64
