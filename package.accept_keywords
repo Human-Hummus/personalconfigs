@@ -8,10 +8,12 @@ dev-libs/libpthread-stubs **
 games-util/steam-launcher ~amd64
 sys-libs/libudev-compat ~amd64
 media-video/obs-studio ~amd64
-dev-lang/zig ~amd64
 dev-lang/zig-bin ~amd64
 app-eselect/eselect-zig ~amd64
 games-util/game-device-udev-rules ~amd64
 gui-apps/wbg ~amd64
 app-misc/afetch ~amd64
 x11-terms/alacritty ~amd64
+dev-util/xxd ~amd64
+app-arch/7zip ~amd64
+app-misc/*::guru ~amd64

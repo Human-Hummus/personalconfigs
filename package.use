@@ -1,5 +1,5 @@
 sys-kernel/installkernel dracut
-media-libs/freetype harfbuzz brotli
+media-libs/freetype brotli
 media-libs/opencv contribdnn
 dev-qt/qtgui eglfs
 dev-python/PyQt5 declarative
@@ -9,3 +9,11 @@ sci-libs/cgnslib hdf5
 media-libs/openpgl cpu_flags_x86_avx2
 x11-base/xwayland libei
 app-misc/mime-types nginx
+dev-java/javatoolkit static-libs
+*/* PYTHON_TARGETS: -* python3_11 python3_12
+*/* PYTHON_SINGLE_TARGET: -* python3_12
+media-gfx/blender PYTHON_SINGLE_TARGET: -* python3_11
+media-gfx/openvdb PYTHON_SINGLE_TARGET: -* python3_11
+media-libs/openimageio PYTHON_SINGLE_TARGET: -* python3_11
+media-libs/opencolorio -opengl PYTHON_SINGLE_TARGET: -* python3_11 
+media-libs/harfbuzz static-libs introspection -experimental

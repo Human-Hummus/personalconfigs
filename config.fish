@@ -5,11 +5,11 @@ set EDITOR "nvim"
 
 fastfetch
 alias ls="eza --all --icons --color=always"
-alias mv="mv -v"
+alias mv="mv -rv"
 alias cp="cp -rv"
 alias rm="trash-put"
-alias txz="tar -cJf"
-alias xzt="tar -xJf"
+alias txz="tar -vcJf"
+alias xzt="tar -vxJf"
 
 starship init fish | source
 
